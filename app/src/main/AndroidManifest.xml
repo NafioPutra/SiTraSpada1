@@ -10,7 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SitraSpada">
         <activity
-            android:name=".LoadingActivity"
+            android:name=".PrestasiActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".RekapSemester1"
+            android:exported="false" />
+        <activity
+            android:name=".RekapLatihan1"
+            android:exported="false" />
+        <activity
+            android:name=".RekapSemester"
+            android:exported="false" />
+        <activity
+            android:name=".RekapLatihan"
+            android:exported="false" />
+        <activity
+            android:name=".PrestasiActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".PesertaActivity1"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,23 +37,26 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".WelcomeScreen"
+            android:name=".LoadingActivity"
             android:exported="false"/>
+        <activity
+            android:name=".WelcomeScreen"
+            android:exported="false" />
         <activity
             android:name=".LoginActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".SignUp"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".PramukaActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".PaskibraActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false"/>
+            android:exported="false" />
     </application>
 
 </manifest>
